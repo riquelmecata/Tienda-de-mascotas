@@ -14,13 +14,13 @@
    }
 
    &__title {
-    color: #fff;
+    color: $links-color;
     width:30%;
     }
 
     &__link {
-        background-color:#A288A6;
-        color:white;
+        background-color:$links-bg;
+        color:$links-color;
         display: inline-block;
         padding:10px;
         margin-top:10px;

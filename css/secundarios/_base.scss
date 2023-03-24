@@ -1,6 +1,6 @@
 body {
     font-family: 'Jost', sans-serif;
-    color: #1C1D21;
+    color: $base-color;
 }
 
 .card {
@@ -19,7 +19,7 @@ body {
     width:100px;
 }
 .header {
-    border-bottom: 1px solid #D9D9D9;
+    border-bottom: 1px solid $border-color;
     padding: 30px;
 }
 
@@ -27,14 +27,7 @@ body {
     margin-top:30px;
 }
 
-.footer {
-    border-top:1px solid #D9D9D9;
-    padding:30px;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .icons a{
     margin-right:20px;
@@ -48,4 +41,27 @@ body {
     width: 100%;
 }
 
+.boton__enviar {
+    background-color: $links-bg;
+    color: $links-color;
+}
 
+.hovericons {
+    position: absolute;
+    opacity: 0;
+    transition: all 0.2s ease-out;
+}
+
+.hovericons a{
+    display: block;
+    background-color: white;
+    border-radius: 100%;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.card:hover .hovericons {
+    opacity: 1;
+    margin-left: 10px;
+}

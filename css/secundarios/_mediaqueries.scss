@@ -6,6 +6,7 @@
     .nav li {
         display: inline;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -14,5 +15,9 @@
     }
     .col {
         width: 100vw;
+    }
+    .texto__nosotros {
+        padding: 20px;
+        text-align: center;
     }
 }
